@@ -12,7 +12,7 @@ const app = new Hono();
 // Important! No trailing slash
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://blazenote-frontend-6th.pages.dev/",
+  "https://test.yangjianji.com/",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
